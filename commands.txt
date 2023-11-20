@@ -1,0 +1,321 @@
+To Change Directory -- CD < Your Dir >
+
+--- < cd .. > One Stick To Back
+
+--- < cd \ > To Back To Main Driver
+
+--- < cd < Dir > > To Change Directory To Your Select Name
+
+To Create Directory -- mkdir
+
+---
+
+To Get In Your Position Files -- ls
+
+---
+
+- Example
+
+= - _ - = = - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - =
+
+mkdir ..\open
+
+-
+-
+-
+-
+-
+-
+
+= - _ - = = - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - =
+
+To Move Or Rename File -- mv < Your Dir >
+
+- Example
+
+-
+-
+-
+-
+-
+
+- = - _ - = = - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - =
+
+To Copy Your Directory -- cp < Your Dir > < Your Dir To Move || Your Dir To Rename>
+
+- Examples
+
+-
+
+-
+
+-
+
+-
+
+-
+
+- = - _ - = = - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - =
+
+To Remove Your Directory -- rm -d || -D < Your Dir >
+
+- Examples
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+= - _ - = = - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - == - _ - =
+
+To Get Information For Anyaway Command -- < Your Command > -- help
+
+- Examples
+
+- mkdir --help
+
+- cd --help
+
+- rm --help
+
+- cp --help
+
+- mv --help
+
+- -- ECHO --
+
+To Write Or Edit Text File Content -- echo "Your Content" 1 || 2 - 3
+
+1 - > If You Need Override On Old Text Content
+
+2 - >> If You Need Write Your Text With Old Text Content
+
+3 - If No File Named With Wour Needed File Createing File Else In Choosen Your File
+
+- Examples
+
+-- echo "Your Text" > file.txt
+
+-- echo "Your Text" >> file.txt
+
+- To Get Help
+
+-- echo --help
+
+-- CAT --
+
+To Get Your Text From Choosen File -- cat "Your File"
+
+1 - > If You Need Override On Old Text Content
+
+2 - >> If You Need Write Your Text With Old Text Content
+
+- Examples
+
+--
+
+--
+
+--
+
+--
+
+--
+
+- If You Need Add File Content Text Or More Then One File Text Contents To New File Or Edit Other File -- cat "from File" 1 || 2 "To File"
+
+-- Examples
+
+--- cat | From File | > | To File |
+
+--- cat | From File | >> | To File |
+
+---
+
+---
+
+---
+
+- To Get Help
+
+-- cat --help
+
+-- GREP -- 
+
+To Search On Your Text From Selection Dir -- grep "Your Text" -r 
+
+- Examples 
+
+-- grep "Your Text" -r   // Searching In currunt Directory And Return Your Searching "Text"
+
+-- grep "Your Text" -r -l   // Searching In currunt Directory  And Return listing Files Has Your Searched "Text"
+
+-- grep "Your Text" -r  "Your Directory"  //   Return Result From Selected Directory
+
+- To Get Help 
+
+-- grep --help
+
+
+
+Starting Tips And Tricks
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Get Detiles Of File 
+
+-- file YourFile
+
+To Get Detiles Of All  File
+
+-- file *
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+To Create File 
+
+-- touch <fileName>
+
+-- mkdir <fileName> <Position>  
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Rename File 
+
+-- rename <YOUR FILE> <NEW NAME>
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+TO Get Manual Of KeyWord // It Return All Infos Of Your KeyWord ? [Syntax , Pattern , Explain About Using , ...] 
+
+-- <KeyWord> /?
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Stop Your Operation 
+
+-- Control-C
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Show Your Position Structure Detailed
+
+-- tree /a
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Open || Show On Screen Keyboard 
+
+-- osk
+
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Open || Show Task List
+
+
+-- tasklist
+
+--- taskkill /pid PID
+
+--- taskkill /im Image Name 
+
+--Example
+
+---  taskkill /F /pid < PID NUM >
+
+
+---  taskkill /F /im < Image NAME >
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+To Explore File 
+
+-- explorer <File Name>
+
+-- <File Name>
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Show Aliases 
+
+-- alias
+
+- To Get More Details 
+
+-- alias /?
+
+- To Delete Alias 
+
+-- alias /d <yourAlias>
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Send One Or More Then On Command 
+
+-- First Command &&  Second Command && Third Command ...
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Get User Name 
+
+-- whoami
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+To Copy Any Data To File 
+
+1 - > If You Need Override On Old Text Content
+
+2 - >> If You Need Write Your Text With Old Text Content
+
+-- chose Your Data - 1 || 2  - <YourFile>  
+
+- Examples
+
+-- tasklist >> "TaskList.txt"
+
+-- ping google.com >> WebSitePingResult.txt
+
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Copy Result To Clipboard (الحافظة)
+
+-- Your Command | clip
+
+- Example 
+
+-- ipconfig | clip  
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+To Open Visual Studio Code 
+
+-- code
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+-
+-
+-
+-
+
+
+
+Reference Website For More  https://ss64.com/ 
+
+
+
+// - - - - The End
